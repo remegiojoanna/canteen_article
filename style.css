@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Background Container - Shared Background */
+.background-container {
+    background: url('/images/bg.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Top Bar Styles */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: white; /* White text color for the navbar */
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hover Effect for Navbar */
+.nav-links a:hover {
+    text-decoration: underline; /* Underline the text on hover */
+    color: white; /* Keep the text color white */
+}
+
+/* Hero Section */
+.hero {
+    margin: 50px 0;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+/* Menu Section */
+.menu-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.menu-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.menu-item h3, .menu-item p {
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
